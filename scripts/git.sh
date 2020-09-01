@@ -1,12 +1,12 @@
 echo
 echo "Installing Git and associated tools"
 brew install git
-brew cask install gitkraken
-brew cask install sourcetree
-brew cask install kaleidoscope
-brew cask install gitup
+#brew cask install gitkraken
+#brew cask install sourcetree
+# brew cask install kaleidoscope
+#brew cask install gitup
 brew cask install github
-brew cask install fork
+#brew cask install fork
 
 echo
 echo "Setting global Git configurations"
@@ -30,12 +30,12 @@ git config --global user.name "$FULL_NAME"
 git config --global user.email $EMAIL_ADDRESS
 
 # Add gitconfig configuration
-if grep -Fxq "Kaleidoscope" ~/.gitconfig > /dev/null
-then
-    # code if found
-    echo
-    echo "Kaleidoscope is already configured in your ~/.gitconfig"
-else
-    # code if not found
-    cat files/gitconfig >> ~/.gitconfig
-fi
+#if grep -Fxq "Kaleidoscope" ~/.gitconfig > /dev/null
+#then
+#    # code if found
+#    echo
+#    echo "Kaleidoscope is already configured in your ~/.gitconfig"
+#else
+#    # code if not found
+#    cat files/gitconfig >> ~/.gitconfig
+#fi

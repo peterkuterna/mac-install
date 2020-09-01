@@ -24,3 +24,6 @@ brew cask install font-source-sans-pro
 brew cask install font-fira-code
 brew cask install font-hasklig
 brew cask install font-monoid
+
+# Jetbrains mono
+brew cask install font-jetbrains-mono

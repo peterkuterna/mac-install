@@ -5,19 +5,19 @@ function installMacAppStoreApps {
   brew install mas
   # apps are installed with their Mac App Store product identifier
   # 'Pixelmator', id: 407963104
-  mas install 407963104
+  # mas install 407963104
   # 'Spark', id: 1176895641
-  mas install 1176895641
+  # mas install 1176895641
   # 'Parallels Desktop Lite', id: 1085114709
   mas install 1085114709
   # 'Jayson - Visual JSON Editor', id: 1189824719
-  mas install 1189824719
+  # mas install 1189824719
   # 'Amphetamine - Powerful keep-awake utility', id: 937984704
-  mas install 937984704
+  # mas install 937984704
   # 'WireGuard VPN client', id: 1451685025
-  mas install 1451685025
+  # mas install 1451685025
   # 'Byword - Markdown editor', id: 420212497
-  mas install 420212497
+  # mas install 420212497
 }
 
 
