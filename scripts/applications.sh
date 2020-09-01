@@ -54,7 +54,7 @@ brew cask install firefox
 brew cask install tor-browser
 brew cask install brave-browser
 
-brew tap caskroom/versions
+brew tap homebrew/cask-versions
 brew cask install google-chrome-canary
 
 # Communication
