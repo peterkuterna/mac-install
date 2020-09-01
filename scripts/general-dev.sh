@@ -1,6 +1,9 @@
 echo
 echo "Installing general development tools"
 
+# Jetbrains Toolbox
+brew cask install jetbrains-toolbox
+
 # command line HTTP client
 brew install httpie
 
