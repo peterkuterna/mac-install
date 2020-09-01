@@ -6,6 +6,9 @@ echo "Installing fonts"
 # Installing fonts tap
 brew tap homebrew/cask-fonts
 
+# Install svn first (https://github.com/Homebrew/homebrew-cask/issues/80695)
+brew install svn
+
 brew cask install font-inconsolata
 brew cask install font-roboto
 brew cask install font-roboto-mono
