@@ -9,7 +9,7 @@ function installMacAppStoreApps {
   # 'Spark', id: 1176895641
   # mas install 1176895641
   # 'Parallels Desktop Lite', id: 1085114709
-  mas install 1085114709
+  # mas install 1085114709
   # 'Jayson - Visual JSON Editor', id: 1189824719
   # mas install 1189824719
   # 'Amphetamine - Powerful keep-awake utility', id: 937984704
